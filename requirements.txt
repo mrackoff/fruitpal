@@ -3,9 +3,10 @@ atomicwrites==1.4.0
 attrs==21.2.0
 click==8.0.3
 colorama==0.4.4
+coverage==6.1.1
 Flask==2.0.2
 flask-restx==0.5.1
--e git+https://github.com/mrackoff/fruitpal.git@884bc51394be6fc6cff9cefbd9766f27c4d641dc#egg=fruitpal
+-e git+https://github.com/mrackoff/fruitpal.git@db4311214f0d4034fa6d44246c9adcc92bce45de#egg=fruitpal
 iniconfig==1.1.1
 itsdangerous==2.0.1
 Jinja2==3.0.2
