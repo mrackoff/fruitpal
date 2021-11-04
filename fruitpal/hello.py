@@ -11,10 +11,8 @@ bp = Blueprint('hello', __name__, url_prefix='/hello')
 # a simple page that says hello
 @bp.route('', methods=['GET'])
 def hello():
-    #db = get_db()
-    #
-    
-    # rows  = db.execute("select * from price_check").fetchall()
-    
-    # return json.dumps([dict(ix) for ix in rows])
     return "hello world!"
+
+#db = get_db()
+# rows  = db.execute("select * from price_check").fetchall()
+#  return json.dumps([dict(ix) for ix in rows])
