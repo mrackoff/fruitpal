@@ -1,0 +1,3 @@
+include fruitpal/schema.sql
+include fruitpal/pricedata.txt
+global-exclude *.pyc
