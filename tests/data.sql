@@ -1,4 +1,4 @@
-INSERT INTO price_check (COUNTRY, COMMODITY, VARIABLE_PRICE)
+INSERT INTO fakeTable (fakeName, fakeValue)
 VALUES
-    ('RS','ORANGE',0),
-    ('AZ','MANGO',100);
+    ('Test1',0),
+    ('Test2',100);

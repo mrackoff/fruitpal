@@ -31,6 +31,6 @@ def test_init_db_command(runner, monkeypatch):
 def test_price_check_exists(app):
     with app.app_context():
         db=get_db()
-        r = db.execute("SELECT count(1) FROM price_check").fetchone()[0]
+        r = db.execute("SELECT count(1) FROM fakeTable").fetchone()[0]
         assert r > 0
         
