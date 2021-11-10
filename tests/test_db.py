@@ -32,5 +32,5 @@ def test_price_check_exists(app):
     with app.app_context():
         db=get_db()
         r = db.execute("SELECT count(1) FROM price_check").fetchone()[0]
-        assert r ==2
+        assert r > 0
         
